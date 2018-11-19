@@ -354,6 +354,12 @@ rm %{buildroot}/%{_libdir}/*.la %{buildroot}/%{_libdir}/libhybris/*.la
 %{_libdir}/libhybris/linker/*.so
 #%{_libdir}/libwifi.so.1
 #%{_libdir}/libwifi.so.1.0.0
+/usr/bin/test_hwc2
+/usr/include/hybris/hwc2/hwc2_compatibility_layer.h
+/usr/lib/libhwc2.so
+/usr/lib/libhwc2.so.1
+/usr/lib/libhwc2.so.1.0.0
+/usr/lib/pkgconfig/libhwc2.pc
 
 %files devel
 %defattr(-,root,root,-)
