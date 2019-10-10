@@ -545,6 +545,7 @@ install -m0644 AUTHORS %{buildroot}%{_docdir}/%{name}-%{version}
 %{_bindir}/test_vibrator
 %{_bindir}/test_wifi
 %{_bindir}/test_hwc2
+%{_bindir}/test_dlopen
 
 %files tests-upstream
 %defattr(-,root,root,-)
